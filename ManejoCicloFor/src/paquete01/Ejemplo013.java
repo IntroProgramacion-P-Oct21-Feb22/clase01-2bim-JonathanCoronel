@@ -5,6 +5,8 @@
  */
 package paquete01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -15,8 +17,13 @@ public class Ejemplo013 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        for (int i = 0; i < 10; i++) {
+        int limite;
+        System.out.println("Ingrese el limite");
+        limite = entrada.nextInt();
+
+        for (int i = 0; i < limite; i++) {
             System.out.printf("%d\n", i);
         }
 

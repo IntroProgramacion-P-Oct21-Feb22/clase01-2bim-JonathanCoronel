@@ -12,12 +12,13 @@ package paquete02;
 public class Ejemplo01 {
 
     public static void main(String[] args) {
-
+           int operacion;
         for (int i = 1; i <= 5; i++) {
             System.out.printf("%d\n", i);
 
             for (int j = 1; j <= 3; j++) {
-                System.out.printf("%d ", j);
+                operacion = i* j;
+                System.out.printf("%d ", operacion);
             }
             System.out.printf("\n-------------\n");
         }

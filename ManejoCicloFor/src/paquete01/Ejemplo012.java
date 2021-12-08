@@ -16,6 +16,7 @@ public class Ejemplo012 {
      */
     public static void main(String[] args) {
         
+        
         System.out.println("Ciclo con incremente de contador de 5 en 5");            
       
         for (int i = 0; i < 10; i += 5) {
